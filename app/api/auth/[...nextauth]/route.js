@@ -33,10 +33,10 @@ const handler = NextAuth({
                 return true
              } catch (error) {
                 console.log("error checking if user exits ", error.message);
-
+              
              }
         }
     }
 })
 
-export {handler as GET , handler as POST}
+export {handler as GET , handler as POST} 
